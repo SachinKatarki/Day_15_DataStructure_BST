@@ -4,7 +4,7 @@ import org.junit.Test;
 
 
 public class BinaryTreeTest {
-	  @Test
+	 @Test
 	    public void givenThreeNumbers_WhenAddedToBST_ShouldReturnSize() {
 	        MyBinaryTree<Integer> myBinaryTree = new MyBinaryTree<>();
 	        myBinaryTree.add(56);
